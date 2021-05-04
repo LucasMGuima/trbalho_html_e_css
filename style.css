@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDFAFF;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px 100px 50px 100px;
+}
+
+#logo{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #6C8994;
+    box-shadow: 5px 5px 5px #B9D5E0;
+}
+
+nav a{
+    color:black;
+    font-size: 1rem;
+    display: block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    transition: background-color 0.8s;
+}
+
+nav a:hover{
+    background-color: #B9D5E0;
+}
+
+nav a:visited{
+    text-decoration: none;
+}
