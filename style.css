@@ -6,7 +6,7 @@ body{
     background-color: #EDFAFF;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
-    padding: 10px 100px 50px 100px;
+    padding: 10px 100px 80px 100px;
 }
 
 #logo{
@@ -38,4 +38,99 @@ nav a:hover{
 
 nav a:visited{
     text-decoration: none;
+}
+
+#coluna-esq{
+    float: left;
+    width: 70%;
+}
+
+#coluna-dir{
+    float: right;
+    width: 20%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 10px;
+}
+
+/**.novidade{
+    background-color: #5a717a;
+    box-shadow: 5px 5px 5px #B9D5E0;
+    border-radius: 5px;
+}**/
+
+.novidade{
+    background-color: #d8b592;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #B9D5E0;
+    margin: 10px;
+}
+
+.produto{
+    padding: 10px;
+    text-align: center;
+    margin: 5px;
+}
+
+.produto img{
+    border: solid 2px lightgray
+}
+
+.produto img:hover{
+    cursor: pointer;
+    border: solid 2px black;
+}
+
+.grid img{
+    width: 140px;
+}
+
+.card{
+    background-color: #d8b592;
+    box-shadow: 5px 5px 5px #B9D5E0;
+    border-radius: 5px;
+    border: solid 2px #d8b592;
+    margin: 10px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+    border-bottom: solid 2px #B9D5E0;
+}
+
+.titulo-dir{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.series a{
+    text-align: center;
+    display: block;
+    background-color: #d19960;
+    margin: 5px;
+    padding: 2.5px;
+    color: black;
+    transition: background-color 0.5s;
+}
+
+.series a,
+.series a:hover,
+.series a:visited{
+    text-decoration: none;
+}
+
+.series a:hover{
+    background-color: #d1a77d;
+}
+
+/**Responsividade**/
+@media screen and (max-width: 800px){
+    
 }
