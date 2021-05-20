@@ -149,8 +149,17 @@ nav a:visited{
 }
 
 /**Responsividade**/
-/*
 @media screen and (max-width: 800px){
-    
+    nav{
+        display: block;
+    }
+
+    nav a{
+        font-size: 2rem;
+    }
+
+    #coluna-esq, #coluna-dir{
+        float: none;
+        width: 100%;
+    }
 }
-*/
