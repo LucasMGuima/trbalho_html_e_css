@@ -130,6 +130,24 @@ nav a:visited{
     background-color: #d1a77d;
 }
 
+#redes-sociais a img{
+    border-radius: 50%;
+    width: 80px;
+    margin: 5px;
+    transition: opacity 0.2s;
+}
+
+#redes-sociais a img:hover{
+    opacity: 0.75;
+    box-shadow: 5px 5px 5px #d19960;
+}
+
+#redes-sociais{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
 /**Responsividade**/
 @media screen and (max-width: 800px){
     
